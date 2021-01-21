@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 const ytb = require('../lib/youtube')
-const baseURI = 'https://arugaz.my.id'
+const baseURI = 'https://myapiv.herokuapp.com/'
 
 module.exports.instagram = function instagram(url) {
 	return new Promise((resolve, reject) => {
