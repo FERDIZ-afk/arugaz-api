@@ -1,5 +1,5 @@
 const bent = require('bent')
-const baseURI = 'https://arugaz.my.id'
+const baseURI = 'https://myapiv.herokuapp.com/'
 
 module.exports.luxury = function luxury(query) {
 	return new Promise((resolve, reject) => {
